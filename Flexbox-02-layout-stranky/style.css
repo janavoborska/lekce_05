@@ -16,3 +16,21 @@ body {
 .paticka	{ background-color: #9b59b6; }
 
 /* ---------------------------------------------------- */
+
+.kontejner {
+	display: flex;
+}
+
+.levy {
+	width: 250px;
+	order: -1;
+	flex-shrink: 0;
+}
+
+.pravy {
+	width: 150px;
+}
+
+.hlavni {
+	flex-grow: 1;
+}
