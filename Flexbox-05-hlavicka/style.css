@@ -24,3 +24,28 @@ a:hover {
 }
 
 /* ---------------------------------------------------- */
+
+.hlavicka {
+	display: flex;
+
+}
+
+.menu li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.menu {
+	text-align: right;
+}
+
+.logo,
+.menu {
+	flex-basis: 100%;
+}
+
+.logo {
+	text-align: left;
+	font-size: 1.5rem;
+	padding: 1rem;
+}
